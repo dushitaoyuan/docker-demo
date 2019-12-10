@@ -1,5 +1,5 @@
 # java 环境准备
-FROM alpine-java8:dir
+FROM dushitaoyuan/alpine-oracle-java8:jdk
 # 设置时区
 ENV TZ='Asia/Shanghai'
 
